@@ -11,8 +11,29 @@ The layout of this command can be simplified to `grep [OPTION]... PATTERN [FILE]
 
 * Pattern refers to the thing you are searching for, may it be a word in a file or part of a file name.
 
-* File is pretty self explainitroy, as it referes to the file or files you want `grep` to search in.
+* File is pretty self explanitroy, as it referes to the file or files you want `grep` to search in.
+
+## Options for `grep`
+
+1) -v
+
+> prints only names of files containing **no** match
+
+2) -n
+
+>  prints the line number with output lines
+
+3) -i
+
+> ignore case distinctions
+
+4) -c
+
+> prints *only* a count of matching lines per file
 
 
 
+
+
+*All these options were found by using `grep --help` in my terminal*
 
