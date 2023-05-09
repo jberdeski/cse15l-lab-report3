@@ -628,7 +628,7 @@ technical/government/Post_Rate_Comm/WolakSpeech_usps.txt:0
 ```
 **WOAH!** I didn't realize that it would tell me 0 if word or what I am searching for is not present in the file. This could help if you need the file with the most of some word or character, or least of it. 
 
-**Ex2:**
+__Ex2:__
 
 ```
 $ grep -c rhythm technical/biomed/1471-213X-1-9.txt
