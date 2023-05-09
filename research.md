@@ -17,7 +17,33 @@ The layout of this command can be simplified to `grep [OPTION]... PATTERN [FILE]
 
 1) -v
 
-> prints only names of files containing **no** match
+> prints only names of files containing **no** match\
+
+**Ex1:**
+
+```
+$ grep -v "e" technical/911report/chapter-1.txt
+
+"WE HAVE SOME PLANES"
+
+
+INSIDE THE FOUR FLIGHTS
+
+IMPROVISING A HOMELAND DEFENSE
+
+NEADS: On its way towards Washington?
+
+
+NEADS: Okay.
+
+NATIONAL CRISIS MANAGEMENT
+
+
+What if?
+```
+> (I cut outa lot of the extra spaces between lines to make it more readable) 
+
+As you can see this returned lines that did have the letter e but in those lines the e was capitalilzed, therefore it does not count as the same thing that -v is avoiding. But at the end we do see a line that does not have the letter e in it, this is because the purpose of -v is to return the lines that do not have the letter e (lowercase) in them. 
 
 2) -n
 
